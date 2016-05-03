@@ -14,12 +14,12 @@ python scraper.py nodeN-times.txt > nodeN-timediffs.txt
 
 ## Formulate the query stack
 ```
-./queryStack.sh
+./queryStacker.sh
 ```
 
 ## Correct the date in the generated query stack
 ```
-vi nodeN-queryStack.sh
+vi bunchOfQueries.sh
 ```
 and make the following substitutions
 ```
