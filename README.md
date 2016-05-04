@@ -27,3 +27,8 @@ and make the following substitutions
 %s/20150611/20160401/g
 %s/p4\///g
 ```
+
+On non-postgres nodes:
+```
+%s/iquery/iquery --port 1240/g
+```
